@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="SolarSystem">
+    <output-path>$PROJECT_DIR$/out/artifacts/SolarSystem</output-path>
+    <root id="root">
+      <element id="archive" name="SolarSystem.jar">
+        <element id="module-output" name="SolarSystem" />
+      </element>
+    </root>
+  </artifact>
+</component>

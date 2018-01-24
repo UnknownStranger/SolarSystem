@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1100.0" prefWidth="1100.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="1100.0" fitWidth="1100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@starBackground.jpg" />
+         </image>
+      </ImageView>
+      <Canvas fx:id="canvas" height="1100.0" layoutX="6.0" layoutY="-14.0" width="1100.0" />
+      <Circle id="sun" fx:id="sun" centerX="550.0" centerY="550.0" fill="YELLOW" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="earth" centerX="750.0" centerY="550.0" fill="DODGERBLUE" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="mars" centerX="810.0" centerY="550.0" fill="#a63003" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="venus" centerX="690.0" centerY="550.0" fill="#d3b21c" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="mercury" centerX="630.0" centerY="550.0" fill="#ff6300" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="moon" centerX="700.0" centerY="470.0" fill="GREY" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
